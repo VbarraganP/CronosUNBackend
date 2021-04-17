@@ -66,5 +66,4 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionCreationPolicy( SessionCreationPolicy.STATELESS );
         httpSecurity.addFilterBefore( jwtRequestFilter, UsernamePasswordAuthenticationFilter.class );
     }
-    
 }
